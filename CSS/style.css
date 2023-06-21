@@ -1,0 +1,429 @@
+.contact bg-dark {
+    font-family: Montserrat-Medium;
+    font-size: 12px;
+    padding: 10px 0px 10px 70px;
+    height: 42px;
+}
+
+.social-contact {
+    margin-top: 0px;
+    padding-right: 70px;
+}
+
+.headding {
+    background-color: white;
+    height: 80px;
+}
+
+/* navbar section */
+ul.navbar-nav li a {
+    font-size: 18px;
+    color: rgb(65, 5, 5);
+}
+
+ul.navbar-nav li {
+    color: rgb(46, 248, 46);
+}
+
+ul.navbar-nav li {
+    padding-left: 100px;
+}
+
+.navv-icon i {
+    font-size: 18px;
+}
+
+.late {
+    padding: 2px 3px;
+    border-radius: 5px;
+    background-color: aquamarine;
+}
+
+.navv-icon {
+    display: flex;
+    padding-right: 20px;
+}
+
+.slidee {}
+
+.showcase {
+    background: #efefef;
+}
+
+.showcase-text {
+    background-color: #efefef;
+    padding-left: 150px;
+    padding-top: 120px;
+}
+
+.showcase-text h1 {
+    font-weight: 100;
+    font-size: 3em;
+    letter-spacing: -2px;
+}
+
+.showcase-text p {
+    width: 80%;
+    font-family: sans-serif;
+}
+
+.imgg {
+    width: 40%;
+
+}
+
+.imgg img {
+    width: 100%;
+
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    filter: invert(72%) sepia(32%) saturate(502%) hue-rotate(83deg) brightness(83%) contrast(86%);
+
+}
+
+.carousel-indicators button {
+    filter: invert(72%) sepia(32%) saturate(600%) hue-rotate(90deg) brightness(93%) contrast(86%);
+
+}
+
+.headding {
+    text-align: center;
+}
+
+.cat-box {
+    text-align: center;
+}
+
+/* featured section */
+.featured-h {
+    text-align: center;
+}
+
+.featured-h h1 {
+    font-size: 20px;
+}
+
+.featured .card-body {
+    font-size: 20px;
+}
+
+.featured .card-body h3 {
+    font-weight: 100;
+}
+
+/* section for about showcase */
+.showcase a {
+    padding: 50px 0px;
+}
+
+.showcase-a h1 {
+    padding-top: 50px;
+
+}
+
+.showcase-a p {
+    font-size: 18px;
+}
+
+/* ----------our service section--------- */
+.ourservice-head {
+    text-align: center;
+}
+
+.ourservice-head h1 {
+    font-size: 3.5em;
+    font-weight: 100;
+}
+
+.mybox {
+    box-shadow: 10px 10px 15px rgba(172, 172, 172, 0.5);
+    text-align: center;
+    color: green;
+}
+
+.mybox i {
+    font-size: 5em;
+    transform: scaleX(-1);
+}
+
+.mybox:hover {
+    background-color: green;
+    color: white;
+}
+
+/* -----------our brand-------- */
+.ourbrand {
+    background-color: #efefef;
+}
+
+.our-brand-body {
+    width: 80%;
+    margin: auto;
+
+}
+
+.ourbrand-head {
+    text-align: center;
+
+}
+
+.change img {
+    filter: grayscale(100%);
+    opacity: 0.5;
+}
+
+.change img:hover {
+    filter: grayscale(0);
+    opacity: 1;
+}
+
+.cont {
+    width: 80%;
+    margin: auto;
+}
+
+/* -------------shop categories---------- */
+.dropdown-toggle {
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 40px 50px 30px 0px;
+
+}
+
+/* ------------------------gallary section--------------- */
+
+.img-card {
+
+    display: grid;
+    columns: auto;
+    align-items: center;
+}
+
+.shop-1 {
+    background: url(/IMG/shop_01.jpg);
+    background-size: 100%;
+    min-height: 240px;
+}
+
+.shop-2 {
+    background: url(/IMG/shop_02.jpg);
+    background-size: 100%;
+    min-height: 240px;
+}
+
+.shop-3 {
+    background: url(/IMG/shop_03.jpg);
+    background-size: 100%;
+    min-height: 240px;
+}
+
+.shop-4 {
+    background: url(/IMG/shop_04.jpg);
+    background-size: 100%;
+    min-height: 240px;
+}
+.shop-5 {
+    background: url(/IMG/shop_05.jpg);
+    background-size: 100%;
+    min-height: 240px;
+}
+.shop-6 {
+    background: url(/IMG/shop_06.jpg);
+    background-size: 100%;
+    min-height: 240px;
+}
+.shop-7 {
+    background: url(/IMG/shop_07.jpg);
+    background-size: 100%;
+    min-height: 240px;
+}
+.shop-8 {
+    background: url(/IMG/shop_08.jpg);
+    background-size: 100%;
+    min-height: 240px;
+}
+.shop-9 {
+    background: url(/IMG/shop_09.jpg);
+    background-size: 100%;
+    min-height: 240px;
+}
+
+.g-menu ul {
+    list-style: none;
+    display: inline;
+    font-size: 20px;
+}
+
+.g-menu ul li {
+    float: left;
+}
+
+.img-card:hover.img-card:hover ul {
+    display: block;
+    display: inline;
+}
+
+.shop-1:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/IMG/shop_01.jpg);
+    background-size: 100%;
+    min-height: 240px;
+}
+
+.shop-2:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/IMG/shop_02.jpg);
+    background-size: 100%;
+    min-height: 240px;
+}
+
+.shop-3:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/IMG/shop_03.jpg);
+    background-size: 100%;
+    min-height: 240px;
+}
+
+.shop-4:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/IMG/shop_04.jpg);
+    background-size: 100%;
+    min-height: 240px;
+}
+.shop-5:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/IMG/shop_05.jpg);
+    background-size: 100%;
+    min-height: 240px;
+}
+.shop-6:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/IMG/shop_06.jpg);
+    background-size: 100%;
+    min-height: 240px;
+}
+.shop-7:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/IMG/shop_07.jpg);
+    background-size: 100%;
+    min-height: 240px;
+}
+.shop-8:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/IMG/shop_08.jpg);
+    background-size: 100%;
+    min-height: 240px;
+}
+.shop-9:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/IMG/shop_09.jpg);
+    background-size: 100%;
+    min-height: 240px;
+}
+
+.showcase-contact{
+    background-color: #e6d5d5d0;
+    text-align: center;
+}
+
+
+.map iframe{
+    width: 100%;
+}
+    
+
+.img-card ul {
+    list-style: none;
+    display: none;
+    font-size: 20px;
+
+}
+
+.img-card i {
+    background-color: #0de744;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.img-card li {
+    margin-top: 10px;
+    color: white;
+
+}
+
+.img-card ul li {
+    text-align: center;
+}
+
+/* --------------------------contact------------------------- */
+
+
+.contact-txt {
+    background-color: aqua;
+}
+
+.contact-txt span {
+    font-size: bold;
+    font-size: 1.6em;
+    text-align: center;
+}
+.cont-form{
+    width: 60%;
+    margin: auto;
+
+}
+/* footer section */
+.foot-sec {
+    background-color: rgb(2, 29, 36);
+}
+
+.footbox-content ul {
+    list-style-type: none;
+    display: inline;
+    color: #efefef;
+}
+
+.foot-box h3 {
+    color: rgb(240, 231, 231);
+    font-size: 3em;
+    font-weight: 100;
+    border-bottom: 0.5px solid rgb(11, 50, 59);
+
+}
+
+.main-foot {
+    border-bottom: 0.5px solid rgb(11, 50, 59);
+}
+
+.foot-box ul li a {
+    color: aliceblue;
+    font-size: 18px;
+}
+
+.foot-box ul li {
+    padding-top: 10px;
+}
+
+.font-social {
+    border-bottom: 0.5px solid rgb(11, 50, 59);
+
+}
+
+.socials i {
+    border: 0.5px solid rgb(11, 50, 59);
+    padding: 10px 15px;
+    font-size: 25px;
+    font-weight: 100;
+    padding: 12px 15px;
+}
+
+.copyright {
+    background-color: rgb(5, 23, 27);
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.nav-item a:hover {
+    color: #0de744;
+}
+
+@media screen and(max-width :650) {
+    .contact {
+        display: none;
+    }
+}
